@@ -1,0 +1,13 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: "TP"
+  datasource:
+    url: jdbc:h2:mem:Phone-db
+  h2:
+    console:
+      enabled: true
+  graphql:
+    graphiql:
+      enabled: true
